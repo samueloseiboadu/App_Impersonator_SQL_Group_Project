@@ -48,6 +48,7 @@ This project highlights practical SQL operations that are critical in app develo
 Here are some key SQL statements used in the project:
 
 - Table Creation:
+
 CREATE TABLE Prescriptions(
     prescription_id INT PRIMARY KEY,
     client_name TEXT,
@@ -58,14 +59,17 @@ CREATE TABLE Prescriptions(
 );
 
 - Data Insertion:
+
 INSERT INTO Prescriptions VALUES (1, 'Abokomah', 'Lisinopril', '10 mg', '2024-10-01', '2024-11-01');
 
 - Updating a Record:
+
 UPDATE Prescriptions
 SET dosage = '15 mg'
 WHERE prescription_id = 44;
 
 - Deleting a Record:
+
 DELETE FROM Prescriptions
 WHERE prescription_id = 44;
 
